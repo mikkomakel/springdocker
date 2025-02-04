@@ -2,7 +2,7 @@
     "name": "Java Dev Container",
     "dockerFile": "Dockerfile-devcontainer",
     "context": "..",
-    "appPort": [8081, 5005], // Expose ports for app and debugging
+    "appPort": [8080, 5005], // Expose ports for app and debugging
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
     "workspaceFolder": "/workspace",
     "customizations": {
