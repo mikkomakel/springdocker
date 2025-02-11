@@ -1,0 +1,11 @@
+name: Manual Trigger Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  echo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Action Succeeded
+        run: echo "Action succeeded"
